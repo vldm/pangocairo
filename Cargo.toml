@@ -1,0 +1,11 @@
+[package]
+name = "pangocairo"
+version = "0.1.0"
+authors = ["Vladimir Motilenko <c-vld@ya.ru>"]
+
+[dependencies]
+libc = "*"
+cairo-rs = "*"
+pango = "*"
+glib = "*"
+gobject-sys = "*"
